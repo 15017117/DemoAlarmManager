@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Calendar cal = Calendar.getInstance();
-                cal.add(Calendar.SECOND, 5);
+                cal.add(Calendar.SECOND,90);
 
                 //Create a new PendingIntent and add it to the AlarmManager
                 Intent intent = new Intent(MainActivity.this,
